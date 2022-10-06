@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+https://greensock.com/react/
+https://greensock.com/forums/topic/32468-how-to-make-a-horizontal-scroll-using-nextjs/
+
+
 ## Getting Started
 
 First, run the development server:
