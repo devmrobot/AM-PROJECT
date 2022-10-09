@@ -24,6 +24,7 @@ export default function ScrollWrapper({children}:{children:React.ReactNode}) {
           });
 
           return ()=>smoother.current.kill();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[]);  
 
     if(!Globalrefs) return null;
