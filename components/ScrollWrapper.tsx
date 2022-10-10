@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useRef } from "react";
-import gsap from "gsap";
-import ScrollSmoother from "gsap/ScrollSmoother";
-import ScrollTrigger from "gsap/ScrollTrigger";
+import { gsap } from "gsap";
+import { ScrollSmoother } from "gsap/dist/ScrollSmoother";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { globalRefsContext } from "../context/GlobalRefs";
 import { scrollContext } from "../context/ScrollContext";
 
@@ -25,6 +25,7 @@ export default function ScrollWrapper({
     });
 
     return () => smoother.current.kill();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (!Globalrefs) return null;
