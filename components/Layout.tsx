@@ -1,5 +1,4 @@
 import React, { useContext } from 'react'
-import styled from 'styled-components'
 import { globalRefsContext } from '../context/GlobalRefs'
 import Footer from './Footer'
 import Header from './Header'
