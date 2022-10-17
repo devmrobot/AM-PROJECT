@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@types/styled-components": "^5.1.26",
-    "gsap": "file:gsap-bonus.tgz",
+    "gsap": "./gsap-bonus.tgz",
     "lodash": "^4.17.21",
     "next": "12.3.1",
     "next-transpile-modules": "^9.1.0",
