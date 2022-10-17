@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useRef } from "react";
-import gsap from 'gsap';
+import { gsap } from "gsap/dist/gsap";
 import { ScrollSmoother } from "gsap/dist/ScrollSmoother";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { globalRefsContext } from "../context/GlobalRefs";
