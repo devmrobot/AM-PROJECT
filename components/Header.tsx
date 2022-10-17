@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useContext, useEffect, useRef, useState } from "react";
 import Logo from "./Logo";
-import { gsap } from "gsap/dist/gsap";
+import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { globalRefsContext } from "../context/GlobalRefs";
 import Link from "next/link";
